@@ -29,7 +29,7 @@ Some proxy servers do not accept anonymous connections and require authenticatio
 The format follows [RFC 3986 section 3.2.1](https://tools.ietf.org/html/rfc3986#section-3.2.1) by including the credentials in the 'user information' part of the URI. The password is optional.
 
 ```text
-protocol://username[:password]@hostname
+protocol://username[:password]@hostname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
 ```
 
 For example, to specify the username `john.doe` and the password `letmein123` for the proxy server `proxy.example.com`:
@@ -99,7 +99,7 @@ Hostname|Matches?
 `www.notanexample.com`|:x:
 `example.com.othertld`|:x:
 
-**Example:**
+**Example:**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
 
 ```text
 no_proxy="contoso.com,www.fabrikam.com"
@@ -122,7 +122,7 @@ If you are _unable_ to either **obtain a trusted certificate**, or trust the sel
 
 ---
 **Security Warning** :warning:
-
+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
 Disabling verification of TLS (SSL) certificates removes protection against a [man-in-the-middle (MITM) attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
 
 Only disable certificate verification if you are sure you need to, are aware of all the risks, and are unable to trust specific self-signed certificates (as described above).
